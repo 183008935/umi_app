@@ -3,10 +3,8 @@ export default [
         path: '/',
         component: '../layouts',
         routes: [
-          { path: '/', redirect: '/user' },
-           { path: '/user', component: './User/Login' },
-    
-                  ],
+          { path: '/', redirect: '/User' },
+          { path: '/User', component: '../User/index.jsx' }],
     }
 ]
 

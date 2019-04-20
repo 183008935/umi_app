@@ -42,7 +42,7 @@ class BasicLayout extends Component {
        
    </Row>
        
-     <LayoutSider/>
+     <LayoutSider children={this.props.children}/>
      
     </Layout>)
    }

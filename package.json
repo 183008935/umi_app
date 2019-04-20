@@ -6,6 +6,8 @@
     "lint": "eslint --ext .js src test"
   },
   "dependencies": {
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
     "hash": "^0.2.1",
     "lodash": "^4.17.11",
     "lodash-decorators": "^6.0.1",
@@ -22,14 +24,18 @@
     "umi-plugin-react": "*"
   },
   "devDependencies": {
-    "mockjs": "^1.0.1-beta3",
     "antd-pro-server": "^1.0.1",
+    "awesome-typescript-loader": "^5.2.1",
     "eslint": "^4.19.1",
     "eslint-config-umi": "^0.1.4",
     "eslint-plugin-flowtype": "^2.46.3",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.1.0",
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "mockjs": "^1.0.1-beta3",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.4"
   }
 }

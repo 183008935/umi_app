@@ -18,17 +18,17 @@ const { Header, Content, Sider } = Layout;
             mode="inline"
             defaultSelectedKeys={['1']}
             defaultOpenKeys={['sub1']}
-            style={{ height: '100%', borderRight: 0 }}
+            style={{ borderRight: 0 }}
           >
             <SubMenu key="sub1" 
               title={<span><Icon type="global" />总项目</span>}>
-              <Menu.Item key="1"><Link to="/user">项目管理</Link></Menu.Item>
-              <Menu.Item key="2"><Link to="/user">用户列表</Link></Menu.Item>
-              <Menu.Item key="3"><Link to="/user">变更用户</Link></Menu.Item>
+              <Menu.Item key="1"><Link to="/User">项目管理</Link></Menu.Item>
+              <Menu.Item key="2"><Link to="/">用户列表</Link></Menu.Item>
+              <Menu.Item key="3"><Link to="/">变更用户</Link></Menu.Item>
             </SubMenu>
           </Menu>
         </Sider>
-        <Layout style={{ padding: '0 24px 24px' }}>
+        <Layout >
            <div className={styles.content}>
             <Content style={{ padding:'2rem',background: "#fff" }}>
                 {this.props.children}

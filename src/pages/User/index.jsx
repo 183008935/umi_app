@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Result from "../components/Result";
+import Result from "../../components/Result";
 import { Button } from "antd";
 import Link from "umi/link";
 
